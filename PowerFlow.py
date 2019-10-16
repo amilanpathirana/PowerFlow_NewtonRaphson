@@ -2,10 +2,11 @@ import numpy as np
 from createbus import Bus
 from createline import Line
 
-# Base Power
+# Base Power and Voltage
 Sb = 100.0
+Vb= 1000.0 
 
-# NR variables
+# NR Algorithm Variables
 tolerance = 0.00001
 counter = 0
 
