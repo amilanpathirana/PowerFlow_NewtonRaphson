@@ -3,7 +3,7 @@
 # Class of system lines
 class Line:
 
-    def __init__(self, dataline):
+    def __init__(self, dataline, Sb):
 
         self.origin = int(dataline[0:4].strip())
         self.destiny = int(dataline[4:12].strip())

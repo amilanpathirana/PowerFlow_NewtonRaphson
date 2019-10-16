@@ -1,9 +1,9 @@
 # Class of system buses
 class Bus:
 
-    def __init__(self, databus):
+    def __init__(self, databus, Sb):
 
-        bustypes = {'0': 'PQ', '1': 'PV', '2': 'Vθ'}
+        bustypes = {'0': 'PQ', '1': 'PV', '2': 'Slack'}
 
         self.ID = int(databus[0:4])
         self.name = databus[8:22]
